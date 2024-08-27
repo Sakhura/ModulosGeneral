@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase5_ejercicio</title>
+
+    <!--Bootstrap CSS-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <table class="table container mt-3">
+        <thead>
+            <tr class="table-dark"> <!-- etiqueta tr define fila de una tabla, cada fila puede tener una o más celdas-->
+                <th scope="col">#</th> <!--el encabezado dentro de una fila-->
+                <th scope="col">Nombre</th>
+                <th scope="col">Apellido</th>
+                <th scope="col">Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="table-active">
+                <th scope="row">1</th>
+                <td class="table-warning">Sabina</td> <!--define la celda de datos, aqui colocan el datos solicitado-->
+                <td class="table-danger">Romero</td>
+                <td class="table-success">51</td>
+            </tr>
+            <tr class="table-active">
+                <th scope="row">2</th>
+                <td class="table-warning">Rafaela</td>
+                <td class="table-danger">Romero</td>
+                <td class="table-success">7</td>
+            </tr>
+            <tr class="table-active">
+                <th scope="row">3</th>
+                <td class="table-warning">Milio</td>
+                <td class="table-danger">Salazar</td>
+                <td class="table-success">7</td>
+            </tr>
+            <tr class="table-active">
+                <th scope="row">4</th>
+               <td colspan="2" class="table-active table-warning">Pablo</td>
+               <td class="table-success">56</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
