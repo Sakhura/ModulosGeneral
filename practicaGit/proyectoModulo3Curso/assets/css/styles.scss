@@ -1,0 +1,29 @@
+/*Variables*/
+$container-bg-color: white;
+$navbar-bg-color: purple;
+$beige-color: beige;
+$yellow-color: yellow;
+$border-radius: 3px;
+
+/*Estilos globales*/
+body{
+  margin: 0 auto;
+}
+section{
+  margin: 25px;
+}
+
+/*navbar style*/
+.navbar{
+  background-color: $navbar-bg-color;
+}
+
+.navbar-ligth, .navbar-brand{
+    color: $beige-color;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(39, 237, 207, 0 5d);
+    border-color: $yellow-color;
+}
