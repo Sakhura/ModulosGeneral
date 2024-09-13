@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <!--link-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <!--Menu-->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
+            href="#"
+            style="color: #760c76"
+            >Gloria Moraga</a
+          >
+          <button
+            style="color: #760c76"
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto align-items-center">
+              <a
+                class="nav-link active poppins-semibold"
+                aria-current="page"
+                href="#sobremi"
+                style="color: #760c76"
+                >Sobre Mi</a
+              >
+              <a
+                class="nav-link poppins-semibold"
+                href="#proyects1"
+                style="color: #760c76"
+                >Mis Proyectos</a
+              >
+              <a
+                class="nav-link poppins-semibold"
+                href="#contact"
+                style="color: #760c76"
+                >Contacto</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <section class="container-fluid hero">
+        <div class="container d-md-flex flex-md-column justify-content-center align-items-center p-4">
+          <figure class="avatar mr-md-3 mx-auto d-block d-md-inline-block"></figure>
+          <div class="presentacion flex-md-grow-1 text-center">
+            <h1 class="roboto-slab-bold titulo">Gloria Moraga</h1>
+            <h2 class="lead poppins-semibold subtitulo">
+              Diseñadora UX - FrontEnd/ Analista QA
+            </h2>
+          </div>
+        </div>
+      </section>
+
+    <!--Sobre Mi-->
+    <section id="proyects1">
+      <section id="sobremi">
+        <div class="container">
+          <h2 class="mt-5 mb-5 roboto-slab-bold titulo">Sobre Mí</h2>
+          <div class="col-md-12">
+            <div class="card h-100">
+              <figure class="avatar2"></figure>
+              <div class="card-body">
+                <h5 class="poppins-semibold subtitulo">¡Hola!</h5>
+                <p class="card-text poppins-regular">
+                  Soy una profesional del área informática con más de 8 años de
+                  experiencia, especializandome en el rol de Analista de Calidad
+                  (QA). Durante mi carrera, he desarrollado sólidos
+                  conocimientos en la elaboración y ejecución de casos de
+                  prueba, con la capacidad para alcanzar objetivos alineados con
+                  los proyectos en los que participo. He trabajado en diversos
+                  proyectos, realizando pruebas exploratorias, regresión y
+                  unitarias, además de documentar procesos y reportar
+                  incidencias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="container">
+        <h2 class="mt-5 mb-5 roboto-slab-bold titulo">Proyectos</h2>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="card h-100" id="ux-card">
+              <img
+                src="IMG/icon ux.png"
+                class="card-img-top"
+                alt="..."
+                id="card-img"
+              />
+              <div class="card-body">
+                <h5 class="poppins-semibold subtitulo">UX</h5>
+                <p class="card-text poppins-regular">
+                  Aquí puedes encontrar algunos de los trabajos que realice para
+                  obtener Certificado de Diseño de Experiencia del Usuario (UX)
+                  de Google..
+                </p>
+
+                <!--Inicio Acordion-->
+                <div class="accordion" id="accordionExample">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseThree"
+                        aria-expanded="false"
+                        aria-controls="collapseThree"
+                      >
+                        Ver Proyectos
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseThree"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingThree"
+                      data-bs-parent="#accordionExample"
+                    >
+                      <div class="accordion-body poppins-semibold">
+                        <ul>
+                          <li><a href="#" id="proyectoUX">Portafolio UX</a></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Segunda card-->
+          <div class="col-md-6 mb-4">
+            <div class="card h-100" id="cardfront">
+              <img
+                src="IMG/html_14320377.png"
+                class="card-img-top"
+                alt="..."
+                id="card-img"
+              />
+              <div class="card-body">
+                <h5 class="poppins-semibold subtitulo">FrontEnd</h5>
+                <p class="card-text poppins-regular">
+                  Aqui puedes encontrar algunos de los trabajos realizados por
+                  mí. Los cuales son realizados en Html, CSS, y JavaScript.
+                </p>
+                <div class="accordion" id="accordion2">
+                  <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingFour">
+                      <button
+                        class="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapseFour"
+                        aria-expanded="false"
+                        aria-controls="collapseFour"
+                      >
+                        Ver Proyectos
+                      </button>
+                    </h2>
+                    <div
+                      id="collapseFour"
+                      class="accordion-collapse collapse"
+                      aria-labelledby="headingFour"
+                      data-bs-parent="#accordion2"
+                    >
+                      <div class="accordion-body poppins-semibold">
+                        <ul>
+                          <li>
+                            <a href="Proyectos/Agencia/" target="_blank"
+                              >Agencia</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              href="Proyectos/AsistenteVirtual/"
+                              target="_blank"
+                              >Asistente Virtual</a
+                            >
+                          </li>
+                          <li>
+                            <a href="Proyectos/Cajero/" target="_blank"
+                              >Cajero Automatico</a
+                            >
+                          </li>
+                          <li>
+                            <a href="Proyectos/ListaPendientes/" target="_blank"
+                              >Lista de Pendientes</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+      <!--Formulario-->
+      <section id="contact" class="py-md-5 py-sm-4 py-xs-4">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-7 col-sm-8 col-xs-8">
+              <h2 class="poppins-regular m-0 pt-5" id="contacto">Contáctame</h2>
+              <h2 id="mensaje" class="mensajeEnviado">
+              </h2>
+              <div id="formulario-contacto">
+              <form class="formulario">
+                <div class="col-md-12">
+                  <label for="formGroupname" class="form-label poppins-semibold text-white">Nombre Completo</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+                </div>
+                <div class="col-md-12">
+                  <label for="inputEmail4" class="form-label poppins-semibold text-white">Correo Electrónico</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Correo Electrónico">
+                </div>
+                <div class="col-md-12 mb-4">
+                  <label for="exampleFormControlTextarea1" class="form-label poppins-semibold text-white">Mensaje</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Mensaje"></textarea>
+                </div>
+                <div class="col-md-12 pb-5">
+                  <button id="enviar" onclick="validarCorreo()" class="my-btn poppins-semibold" >Enviar</button>
+                </div>
+              </form>
+            </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="p-4 d-flex justify-content-center">
+        <div class="container text-center p-0 m-0">
+          <ul class="d-flex list-unstyled justify-content-center">
+            <li> <a href="#sobremi" class="p-3">Sobre Mi</a></li>
+            <li><a href="#proyects1" class="p-3">Proyectos</a></li>
+            <li><a href="#contact" class="p-3">Contacto</a> </li>
+          </ul>
+          <h6 class="poppins-semibold p-4">&copy; 2024 Gloria Moraga</h6>
+         
+        </div>
+      </footer>
+ 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"> </script>
+
+    <script src="script.js"> </script>
+  </body>
+</html>
