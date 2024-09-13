@@ -1,0 +1,45 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    background-color: gray;
+}
+.nav-link {
+    color: #fff !important;
+ }
+section{
+    background-color: blue;
+}
+.content-wrapper{
+    border-radius: 3px solid black;
+}
+.person{
+    border: 1px solid black;
+}
+img{
+    width: 100px;
+    height: 100px;
+    flex-basis: 25%;
+    border-radius: 300px;
+    display: flex;
+    
+}
+.users-container{
+    background-color: aqua;
+}
+.chat-container{
+    background-color: blue;
+}
+.users-container .user img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.chat-right{
+    text-align: right;
+}
