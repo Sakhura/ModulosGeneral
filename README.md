@@ -1,2 +1,2 @@
 # ModulosGeneral
-revisando Readme 13-09
+Revisando cambios Readme 13 de septiembre
