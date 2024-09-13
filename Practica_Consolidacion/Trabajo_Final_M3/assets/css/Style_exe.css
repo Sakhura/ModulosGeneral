@@ -1,0 +1,125 @@
+*{
+    list-style: none; 
+    padding: 0%;
+    margin: 0;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+    background: red;
+    
+  }
+
+.nav-link{
+    color: white !important;
+}
+
+img{
+    width: 100px;
+    right: 100px ;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.users-container{
+    background-color: blueviolet;
+    color: white;
+    list-style: none;
+
+}
+
+.users{
+    background-color: rgb(14, 157, 78);
+
+}
+
+.person{
+    background-color: blue;
+    display: flex;
+    list-style: none;  /* quitar puntos al li*/
+}
+
+.chat-container{
+    background-color: yellow;
+}
+.selected-user{
+    background-color: hotpink;
+    /* border-bottom: 5px solid #e6ecf3;
+    border-radius: 3%;
+*/
+}
+.users-container .user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .chat-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+ 
+  .chat-container .chat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .chat-container .chat-box .chat-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .chat-container .chat-box .chat-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .chat-container .chat-box .chat-left .chat-avatar {
+    float: left;
+    margin-right: 10px;
+  }
+ 
+  .chat-container .chat-box .chat-right .chat-avatar {
+    float: right;
+    margin-left: 10px;
+  }
+ 
+  .chat-container .chat-box .chat-text1, .chat-container .chat-box .chat-text2 {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+ 
+  .chat-container .chat-box .chat-text1 {
+    margin-left: 50px;
+  }
+ 
+  .chat-container .chat-box .chat-text2 {
+    margin-right: 50px;
+  }
+ 
+  .chat-container .chat-box .chat-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+ 
+  .chat-container .chat-box .chat-hour {
+    font-size: 0.8em;
+    color: #666;
+  }
