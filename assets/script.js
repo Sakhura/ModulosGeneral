@@ -8,7 +8,7 @@ class Producto{  //esta clase representa un producto con un nombre(nombre) y un 
 }
 
 
-//clase Carrito
+//clase Carritos
 
 class  Carrito{   //esta clase representa un carrito de compras. Tiene las siguientes propiedades y métodos:
     constructor(){
